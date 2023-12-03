@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-top{
+display: grid;
+grid-template-columns: 120px auto;
+align-items: center;
+}
+.header-top .notice-title{
+
+background: rgb(230, 95, 117);
+padding: 20px 25px;
+box-shadow: 15px 0px 8px  rgba(97, 95, 95, 0.7);
+border-right: 3px solid rgb(241, 132, 132);
+border-radius:50%;
+
+}
+.header-top .notice-title span{
+    color:rgb(245, 238, 238);
+    font-size: 20px;
+}
+  
+.header-top .notice-content a{
+    color:rgb(199, 85, 85);
+    text-decoration: none;
+}
+.header-top .notice-content a marquee:hover{
+     text-decoration: underline;
+     text-decoration-color: black;
+}
